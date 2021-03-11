@@ -18,3 +18,25 @@ public class uri1003 {
 		sc.close();
 	}
 }
+
+-----------------------------------------------------------------------
+Segundo método de execução:
+-----------------------------------------------------------------------	
+import java.util.Scanner;
+
+public class uri1003 {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in); 
+		
+		int y = sc.nextInt();
+		int x = sc.nextInt();
+		int soma = y + x;
+		
+		System.out.println("SOMA = " + soma);
+		
+		sc.close();
+		
+	}
+}
